@@ -164,5 +164,8 @@ function arr(array) {
         count += array[i] ** 2
     }
     console.log("count", count)
+    console.log("count", count)
+    console.log("count", count)
+
 }
 arr([1, 2, 3, 4])
