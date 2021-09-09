@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js';
 let x = 0
 console.log(x);
-
+num()
 const app = new PIXI.Application({ 
     backgroundColor: 0x1099bb,
     width: 700,
@@ -10,7 +10,10 @@ const app = new PIXI.Application({
 app.stop();
 
 document.body.appendChild(app.view);
-
+function num (x,y){
+    console.log(x+y)
+}
+num("num ", 10+10)
 const style = new PIXI.TextStyle({
     fontFamily: 'Arial',
     fontSize: 36,
