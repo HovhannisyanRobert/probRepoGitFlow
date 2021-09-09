@@ -14,6 +14,12 @@ function num (x,y){
     console.log(x+y)
 }
 num("num ", 10+10)
+
+
+function nums (x,y){
+    console.log(x+y)
+}
+nums("nums ", 10+10)
 const style = new PIXI.TextStyle({
     fontFamily: 'Arial',
     fontSize: 36,
